@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title name -->
+    <title>Responsive Drop-down Menu Bar</title>
+
+    <!-- Select icon -->
+    <link rel="icon" href="">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!-- Start Script -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="file:///E:/jquery.js"></script>
+
+  </head>
+  <body>
+
+<!-- =====================Start NAvbar=========================== -->
+    <nav>
+      <div class="logo">
+        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+        <lord-icon
+            src="https://cdn.lordicon.com/dxoycpzg.json"
+            trigger="loop"
+            style="width:40px;height:40px; padding-top: 8px;">
+        </lord-icon>STUDY YATRA</div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+
+      <!-- list section -->
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+
+        <li>
+          <label for="btn-1" class="show"><i class="fa-solid fa-book"></i> COURSES <i class="fa-solid fa-caret-down"></i></label>
+          <a href="#"><i class="fa-solid fa-book"></i>  COURSES <i class="fa-solid fa-caret-down"></i></a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+            <li><a href="#">BCA</a></li>
+            <li><a href="#">B-TECH</a></li>
+            <li><a href="#">BBA</a></li>
+          </ul>
+        </li>
+        <!--  -->
+
+        <li><a href="#"><i class="fa-solid fa-address-card"></i> About US</a></li>
+        <li><a href="#"><i class="fa-solid fa-phone"></i> Contact</a></li>
+      </ul>
+    </nav>
+<!-- =====================End NAvbar=========================== -->
+
+
+
+
+
+
+
+
+
+
+<!-- =====================Start Home=========================== -->
+
+<!-- =====================End Home=========================== -->
+
+
+
+
+
+
+
+<!-- =====================Start footer=========================== -->
+
+<!-- =====================End footer=========================== -->
+
+
+
+    <script>
+      $('.icon').click(function(){
+        $('span').toggleClass("cancel");
+      });
+    </script>
+
+  </body>
+</html>
